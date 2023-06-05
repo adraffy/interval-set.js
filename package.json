@@ -1,0 +1,32 @@
+{
+	"name": "@adraffy/interval-set",
+	"version": "0.0.1",
+	"description": "Integer Interval Set",
+	"keywords": [
+		"interval",
+		"integer",
+		"set",
+		"range",
+		"span"
+	],
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/adraffy/interval-set.js.git"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/adraffy/interval-set.js/issues"
+	},
+	"homepage": "https://github.com/adraffy/interval-set.js#readme",
+	"author": {
+		"name": "raffy.eth",
+		"email": "raffy@me.com",
+		"url": "http://raffy.antistupid.com"
+	},
+	"scripts": {
+		"test": "node test/random.js",
+		"speed": "node test/speed.js",
+		"play": "node test/play.js"
+	}
+}
